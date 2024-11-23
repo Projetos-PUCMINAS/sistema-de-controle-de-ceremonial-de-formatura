@@ -1,19 +1,19 @@
--- 1. Listar todos os nomes e telefones dos profissionais cadastrados.
+--1. Listar os nomes dos profissionais e o total de horas que trabalharam em eventos, ordenados pelo maior total de horas.
 
--- 2. Exibir os nomes dos buffets que estão localizados no bairro 'Centro'.
+--2. Exibir os nomes dos buffets e o número total de cardápios que eles possuem, ordenados do maior para o menor.
 
--- 3. Listar os nomes dos cardápios e os CNPJs dos buffets a que pertencem.
+--3. Listar os nomes dos eventos e a soma total dos preços dos aperitivos dos cardápios associados a esses eventos
 
--- 4. Exibir os nomes dos aperitivos cujo preço por pessoa é maior que 5.00, ordenados do mais caro ao mais barato.
+--4. Exibir os nomes dos profissionais que trabalharam em mais de 3 eventos.
 
--- 5. Mostrar os eventos com mais de 200 convidados, incluindo sua descrição, local e número de convidados, ordenados pelo número de convidados em ordem decrescente.
+--5. Listar os nomes e CNPJs dos buffets que possuem cardápios associados a eventos realizados no mês de novembro.
 
--- 6. Calcular o número total de profissionais cadastrados no sistema.
+--6. Exibir os tipos de aperitivos e a média de preço por pessoa para cada tipo.
 
--- 7. Exibir a média de preço por pessoa dos aperitivos cadastrados no sistema.
+--7. Mostrar os buffets que possuem uma parceria maior que 10 anos, ordenados pelo tempo de parceria.
 
--- 8. Listar os nomes dos eventos e os respectivos cardápios associados.
+--8. Listar os eventos com o nome do chefe da turma e o valor total do pagamento por evento.
 
--- 9. Exibir os nomes dos profissionais que participaram de eventos no salão 'Salão A', incluindo o nome do evento.
+--9. Exibir os nomes dos eventos e os profissionais que trabalharam neles por mais de 10 horas.
 
--- 10. Listar os nomes dos buffets que possuem cardápios com aperitivos cujo preço por pessoa é maior que 7.00.
+--10. Exibir os tipos de aperitivos e o número total de cardápios em que cada tipo aparece.
