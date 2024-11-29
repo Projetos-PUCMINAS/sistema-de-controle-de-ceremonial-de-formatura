@@ -17,14 +17,27 @@ CREATE TABLE Aperitivo (
     tipo_aperitivo VARCHAR(100)
 );
 
--- Tabela Buffet
-CREATE TABLE Buffet (
+-- Tabela Firma
+CREATE TABLE Firma (
     cnpj VARCHAR(20) PRIMARY KEY,
     nome VARCHAR(100),
     rua VARCHAR(100),
     numero INT,
     cep VARCHAR(15),
     bairro VARCHAR(50)
+);
+
+-- Tabela Buffet (atualizado com cnpj_firma e inicio_parceria)
+CREATE TABLE Buffet (
+    cnpj VARCHAR(20) PRIMARY KEY,
+    nome VARCHAR(100),
+    rua VARCHAR(100),
+    numero INT,
+    cep VARCHAR(15),
+    bairro VARCHAR(50),
+    inicio_parceria DATE,
+    cnpj_firma VARCHAR(20),
+    FOREIGN KEY (cnpj_firma) REFERENCES Firma(cnpj)
 );
 
 -- Tabela Cardapio
@@ -35,15 +48,30 @@ CREATE TABLE Cardapio (
     FOREIGN KEY (cnpj_buffet) REFERENCES Buffet(cnpj)
 );
 
--- Tabela Evento
+-- Tabela Formatura
+CREATE TABLE Formatura (
+    id INT PRIMARY KEY,
+    nome VARCHAR(255),
+    telefone VARCHAR(15),
+    nome_faculdade VARCHAR(255),
+    forma_pagamento VARCHAR(50),
+    valor_pagamento DOUBLE,
+    nome_curso VARCHAR(255),
+    cnpj_firma VARCHAR(20),
+    FOREIGN KEY (cnpj_firma) REFERENCES Firma(cnpj)
+);
+
+-- Tabela Evento (atualizado com id_formatura e id_cardapio)
 CREATE TABLE Evento (
     id INT PRIMARY KEY,
     descricao VARCHAR(255),
     local VARCHAR(100),
-    duracao INT,
     num_convidados MEDIUMINT,
+    duracao TINYINT,
     data DATE,
+    id_formatura INT,
     id_cardapio INT,
+    FOREIGN KEY (id_formatura) REFERENCES Formatura(id),
     FOREIGN KEY (id_cardapio) REFERENCES Cardapio(id)
 );
 
@@ -64,14 +92,4 @@ CREATE TABLE ProfissionalEvento (
     PRIMARY KEY (id_evento, matricula_profissional),
     FOREIGN KEY (id_evento) REFERENCES Evento(id),
     FOREIGN KEY (matricula_profissional) REFERENCES Profissional(num_matricula)
-);
-
--- Tabela Firma
-CREATE TABLE Firma (
-    cnpj VARCHAR(20) PRIMARY KEY,
-    nome VARCHAR(100),
-    rua VARCHAR(100),
-    numero INT,
-    cep VARCHAR(15),
-    bairro VARCHAR(50)
 );
