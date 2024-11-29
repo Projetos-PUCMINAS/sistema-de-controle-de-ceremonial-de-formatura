@@ -60,4 +60,72 @@ As consultas estão documentadas no arquivo [selects.sql](scripts/selects.sql).
 ## Contribuidores
 Projeto desenvolvido por estudantes da disciplina de Banco de Dados sob orientação do Professor Rodrigo Baroni.
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/alvimdev/">
+        <img src="https://avatars.githubusercontent.com/u/83983141" width="100px;" alt="alvimdev"/><br>
+        <sub><b>alvimdev</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/marcosffp/">
+        <img src="https://avatars.githubusercontent.com/u/159904717" width="100px;" alt="marcosffp"/><br>
+        <sub><b>marcosffp</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/pazzutti/">
+        <img src="https://avatars.githubusercontent.com/u/160603029?v=4" width="100px;" alt="pazzutti"/><br>
+        <sub><b>pazzutti</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/VitorCostaVianna/">
+        <img src="https://avatars.githubusercontent.com/u/164224028?v=4" width="100px;" alt="VitorCostaVianna"/><br>
+        <sub><b>VitorCostaVianna</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ArthurAstolfi/">
+        <img src="https://avatars.githubusercontent.com/u/166446640?v=4" width="100px;" alt="VitorCostaVianna"/><br>
+        <sub><b>ArthurAstolfi</b></sub>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gabrielpdiniz/">
+        <img src="https://avatars.githubusercontent.com/u/161521731?v=4" width="100px;" alt="gabrielpdiniz"/><br>
+        <sub><b>gabrielpdiniz</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/JoaquimGCVS/">
+        <img src="https://avatars.githubusercontent.com/u/160603058?v=4" width="100px;" alt="JoaquimGCVS"/><br>
+        <sub><b>JoaquimGCVS</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ArlindoSPJr/">
+        <img src="https://avatars.githubusercontent.com/u/164196737?v=4" width="100px;" alt="ArlindoSPJr"/><br>
+        <sub><b>ArlindoSPJr</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/V1niciusSena/">
+        <img src="https://avatars.githubusercontent.com/u/132425029?v=4" width="100px;" alt="V1niciusSena"/><br>
+        <sub><b>V1niciusSena</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/geelio/">
+        <img src="https://avatars.githubusercontent.com/u/150765447?v=4" width="100px;" alt="V1niciusSena"/><br>
+        <sub><b>geelio</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ---
+[⬆ Voltar ao topo](#sistema-de-controle-de-cerimonial-de-formatura)<br>
